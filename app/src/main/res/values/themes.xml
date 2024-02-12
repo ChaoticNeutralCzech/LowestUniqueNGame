@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LowestUniqueNGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/navbar</item>
+        <item name="colorPrimaryVariant">@color/navbar_sel</item>
+        <item name="android:textColorPrimary">@color/chalkwhite</item>
+        <item name="android:colorActivatedHighlight">@color/chalkyellow</item>
+        <item name="android:textColorHighlight">@color/chalkyellow</item>
+        <item name="colorOnTertiaryFixedVariant">@color/chalkyellow</item>
+        <item name="android:colorForeground">@color/l_text</item>
+        <item name="android:colorBackground">@color/l_bg</item>
+        <item name="colorControlActivated">@color/navbar_sel</item>
+        <item name="colorControlHighlight">@color/navbar_sel</item>
+        <item name="colorAccent">@color/navbar_sel</item>
+
+
+    </style>
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/navbar</item>
+    </style>
+    <style name="Theme.LowestUniqueNGame" parent="Base.Theme.LowestUniqueNGame" />
+</resources>

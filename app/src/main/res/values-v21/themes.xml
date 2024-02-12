@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.LowestUniqueNGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light theme -->
+        <item name="colorPrimary">@color/navbar</item>
+        <item name="colorPrimaryVariant">@color/navbar_sel</item>
+        <item name="android:textColorPrimary">@color/navbar</item>
+        <item name="colorOnTertiaryFixedVariant">@color/chalkyellow</item>
+        <item name="android:colorForeground">@color/l_text</item>
+        <item name="android:colorBackground">@color/l_bg</item>
+        <item name="android:navigationBarColor">@color/navbar</item>
+        <item name="android:colorControlActivated">@color/navbar</item>
+        <item name="android:colorControlHighlight">@color/navbar_sel</item>
+        <item name="android:colorAccent">@color/navbar_sel</item>
+        <item name="android:statusBarColor">@color/navbar</item>  <!-- originally not there, that's why both are the same, redundant -->
+    </style>
+    <style name="Invite.Theme.LowestUniqueNGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Invite theme -->
+        <item name="colorPrimary">@color/navbar</item>
+        <item name="colorPrimaryVariant">@color/navbar_sel</item>
+        <item name="android:textColorPrimary">@color/navbar</item>
+        <item name="colorOnTertiaryFixedVariant">@color/chalkyellow</item>
+        <item name="android:colorForeground">@color/l_text</item>
+        <item name="android:colorBackground">@color/l_bg</item>
+        <item name="android:navigationBarColor">@color/navbar</item>
+        <item name="android:colorControlActivated">@color/navbar</item>
+        <item name="android:colorControlHighlight">@color/navbar_sel</item>
+        <item name="android:colorAccent">@color/navbar_sel</item>
+        <item name="android:statusBarColor">@color/navbar</item>
+
+    </style>
+    <style name="Theme.LowestUniqueNGame" parent="Base.Theme.LowestUniqueNGame">
+        <item name="android:statusBarColor">@color/navbar</item>
+    </style>
+</resources>

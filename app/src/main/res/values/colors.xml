@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="navbar">#05281F</color>
+    <color name="navbar_sel">#073C2F</color>
+    <color name="chalkwhite">#CECECE</color>
+    <color name="chalkyellow">#E9E84E</color>
+
+    <color name="l_text">#F000</color>
+    <color name="l_bg">#FFFF</color>
+
+    <color name="d_text">#FFFF</color>
+    <color name="d_bg">#F000</color>
+    <color name="d_navbar">#05281F</color>
+    <color name="d_navbar_sel">#073C2F</color>
+</resources>

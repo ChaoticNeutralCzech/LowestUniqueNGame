@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LowestUniqueNGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/d_navbar</item>
+        <item name="colorPrimaryVariant">@color/d_navbar_sel</item>
+        <item name="android:colorForeground">@color/d_text</item>
+        <item name="android:colorBackground">@color/d_bg</item>
+    </style>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Invite.Theme.LowestUniqueNGame"
+
+    tools:context=".InviteActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/screens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:navigationIconTint="@color/chalkwhite"
+            app:title="@string/gi_title"
+            app:titleTextColor="@color/chalkwhite"
+            app:titleMarginBottom="22sp"/>
+
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/goback_toolbar"
+            app:layout_constraintBottom_toBottomOf="@+id/screen">
+
+            <TextView
+                android:id="@+id/idTVHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="@string/gi_intro"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/idTVtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idTVHeading"
+                android:text="@string/gi_instructions_public"
+                android:textSize="24dp"
+                android:layout_margin="@dimen/text_margin"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/idTVtext">
+                <ImageView
+                    android:id="@+id/idIVQrcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="QR Code" />
+
+                <!--
+                <EditText
+                    android:id="@+id/idEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/idIVQrcode"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:autofillHints=""
+                    android:hint="Enter your message"
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/idBtnGenerateQR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/idEdt"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="Generate QR Code"
+                    android:textAllCaps="false" />
+                -->
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings_40px"
+        android:title="@string/tab_settings" />
+
+    <item
+        android:id="@+id/players"
+        android:icon="@drawable/players_40px"
+        android:title="@string/tab_players" />
+
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/play_cards_40px"
+        android:title="@string/tab_play" />
+    <item
+        android:id="@+id/stats"
+        android:icon="@drawable/bar_chart_40px"
+        android:title="@string/tab_stats" />
+</menu>
